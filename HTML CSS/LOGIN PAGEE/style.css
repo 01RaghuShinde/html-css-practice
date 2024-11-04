@@ -1,0 +1,45 @@
+input{
+    width:260px;
+    border:none;
+    border-bottom: 2px solid #d1d1d1;
+
+}
+.container{
+    position:absolute;
+    height: 350px;
+    width: 600px;
+    margin:auto ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.front,.back{
+    height: 350px;
+    width: 600px; 
+    position: relative;
+}
+.back{
+    bottom: 350px;
+    /* transform: rotateY(180deg); */
+}
+.left,.right{
+    height: 350px;
+    width: 300px;
+    box-sizing: border-box;
+}
+.left{
+    background-color: #6699ff;
+}
+.right{
+    background-color: black;
+}
